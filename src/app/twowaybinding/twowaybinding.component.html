@@ -1,0 +1,21 @@
+<div>
+      <label for="name1"> Name</label>
+      <input id="name1" type="text" #nameref (input)="changename(nameref.value)" />
+      <br>
+      <br>
+      <div id="name" class="bg-lightp-2">
+            {{inputname}}
+      </div>
+</div>
+
+<br>
+<br>
+<div>
+      <label for="age1"> Agr</label>
+      <input id="age1" type="text" #ageref (input)="changeage(ageref.value)">
+      <br>
+      <br>
+      <div id="name" class="bg-lightp-2">
+            {{inputage}}
+      </div>
+</div>
